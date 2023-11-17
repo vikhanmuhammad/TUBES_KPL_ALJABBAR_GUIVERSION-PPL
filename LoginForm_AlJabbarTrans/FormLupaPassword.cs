@@ -26,7 +26,7 @@ namespace AlJabbarTrans
         }
 
 
-        //Method yang digunakan untuk kembali ke halaman login ketika klik button Simpan
+        //Method yang digunakan untuk kembali ke halaman login ketika klik button Simpan//
         private void buttonSimpan_Click(object sender, EventArgs e)
         {
             //Input pada setiap textBox berupa string
