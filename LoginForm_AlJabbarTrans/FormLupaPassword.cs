@@ -58,22 +58,22 @@ namespace AlJabbarTrans
                 //Jika kosong akan mengeluarkan MessageBox berikut
                 MessageBox.Show("Konfirmasi Password harus diisi!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            //Kondisi untuk cek jika isi password dan konfirmasi password sama atau tidak
+            /*//Kondisi untuk cek jika isi password dan konfirmasi password sama atau tidak
             else if (password != konfirmasiPass)
             {
                 //Jika tidak sama akan mengeluarkan MessageBox berikut
                 MessageBox.Show("Password dan Konfirmasi Password harus sama!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            }*/
             //Kondisi untuk cek jika pada email terdapat @ atau tidak
             else if (!email.Contains("@"))
             {
                 //Jika tidak terdapat @ akan mengeluarkan MessageBox berikut
                 MessageBox.Show("Email harus memiliki domain", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else if (password.Length < 6 || password.Length > 9)
+            /*else if (password.Length < 6 || password.Length > 9)
             {
                 MessageBox.Show("Password harus memiliki panjang antara 6 dan 9 karakter", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            }*/
             else
             {
                 //Ketika semua kondisi sebelumnya sudah terpenuhi

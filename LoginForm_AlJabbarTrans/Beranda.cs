@@ -72,12 +72,12 @@ namespace AlJabbarTrans
             // Memastikan bahwa item yang dipilih tidak null sebelum mengambil nilainya *SECURE CODING
             if (comboBox1.SelectedItem != null && comboBox2.SelectedItem != null && comboBox3.SelectedItem != null)
             {
-                // Memastikan bahwa jumlah kursi yang dipilih bukan 0
+                /*// Memastikan bahwa jumlah kursi yang dipilih bukan 0
                 if (comboBox3.SelectedItem.ToString() == "0")
                 {
                     MessageBox.Show("Jumlah kursi tidak boleh 0", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return; // Menghentikan eksekusi lebih lanjut jika jumlah kursi 0
-                }
+                }*/
 
                 /*Saat button1 di klik, akan menyimpan data kotaAwal, kotaTujuan, jumlahKursi, selectedDate, nextState
                 , dan tanggalPemberangkatan kemudian mengirimkannya datanya ke form PilihWaktu dan menampilkannya*/

@@ -52,11 +52,11 @@ namespace AlJabbarTrans
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Mengaktifkan trigger PILIH_TUJUAN pada state machine menu
+            /*// Mengaktifkan trigger PILIH_TUJUAN pada state machine menu
             prosesPesan backState = menu.activateTrigger(Trigger.PILIH_TUJUAN);
             Beranda home = new Beranda(backState);
             home.Show();
-            this.Hide();
+            this.Hide();*/
             
         }
 

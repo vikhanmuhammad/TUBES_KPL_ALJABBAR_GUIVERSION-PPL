@@ -29,7 +29,7 @@ namespace LoginForm_AlJabbarTrans
             string emailAddress = textBoxEmail.Text;
             string userPassword = textBoxPassword.Text;
 
-            // Memastikan bahwa emailAddres dan userPassword tidak boleh kosong
+            /*// Memastikan bahwa emailAddres dan userPassword tidak boleh kosong
             if (string.IsNullOrEmpty(emailAddress) && string.IsNullOrEmpty(userPassword))
             {
                 MessageBox.Show("Email dan password harus diisi!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -54,7 +54,7 @@ namespace LoginForm_AlJabbarTrans
             {
                 MessageBox.Show("Password harus memiliki panjang antara 6 dan 9 karakter", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else
+            else*/
             {
                 prosesPesan nextState = menuProsesPesan.activateTrigger(Trigger.MASUK);
                 Beranda nextDashboardApp = new Beranda(nextState);
